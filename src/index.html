@@ -15,6 +15,7 @@
     <form 
     action="https://mate-academy-form-lesson.herokuapp.com/create-application" 
     method="post"
+    required
     >
       <fieldset class="info">
         <legend>Personal information</legend>
@@ -24,7 +25,6 @@
           type="text"
           name="surname"
           autocomplete="off"
-          required
           >
         </label>
         <label class="form-field">
@@ -33,7 +33,6 @@
           type="text"
           name="name"
           autocomplete="off"
-          required
           >
         </label>
         <label class="form-field">
@@ -44,7 +43,6 @@
           value="12"
           min="1"
           max="100"
-          required
           >
         </label>
         <label class="form-field">
@@ -52,7 +50,6 @@
           <input 
           type="date"
           name="dateOfBirth"
-          required
           >
         </label>
         <label class="form-field">
@@ -60,7 +57,6 @@
           <input 
           type="checkbox"
           name="agreement"
-          required
           >
         </label>
       </fieldset>
@@ -73,7 +69,6 @@
           type="email"
           name="e-mail"
           placeholder="email@example.com"
-          required
           >
         </label>
         <label class="form-field">
@@ -83,7 +78,6 @@
           name="Password"
           minlength="5"
           maxlength="12"
-          required
           >
         </label>
       </fieldset>
@@ -97,7 +91,6 @@
           type="radio"
           name="loveCats"
           value="Y"
-          required
             >
           Yes 
           </label>
@@ -107,7 +100,6 @@
           type="radio"
           name="loveCats"
           id="N"
-          required
             >
           No
           </label>
@@ -117,7 +109,6 @@
           <input 
           type="color"
           name="color"
-          required
           >
         </label>
         <label class="form-field">
@@ -125,7 +116,6 @@
           <input 
           type="time"
           name="timeToBed"
-          required
           >
         </label>
       
@@ -135,7 +125,6 @@
           name="cars"
           id="cars"
           multiple
-          required
         >
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
@@ -150,7 +139,6 @@
           name="grade"
           min="0"
           max="10"
-          required
           >
         </label>
       </fieldset>
@@ -167,7 +155,6 @@
         Would you recommend us?
           <select
           name="answer"
-          required
         >
             <option value="yes">yes</option>
             <option value="no">no</option>
